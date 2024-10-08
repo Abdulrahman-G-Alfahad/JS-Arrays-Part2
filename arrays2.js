@@ -73,7 +73,8 @@ function secondHalfOfArrayIfItIsEven(fruits) {
   const secondHalf = [];
   if (fruits.length % 2 === 0) {
     secondHalf = fruits.slice(fruits.length / 2);
-  } else return false;
+  }
+  return secondHalf;
 }
 
 /**
